@@ -42,8 +42,7 @@ const ImageUpload: React.FC<ImageUploadProps> = ({ onChange, value }) => {
             <div className="font-semibold text-lg">Click to upload</div>
             {value && (
               <div
-                className="
-              absolute inset-0 w-full h-full"
+                className="absolute inset-0 w-full h-full"
               >
                 <Image
                   fill
